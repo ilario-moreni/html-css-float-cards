@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    text-align: center;
+}
+
+h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    color: #E53170;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
